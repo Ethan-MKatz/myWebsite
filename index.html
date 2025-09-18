@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="#home">My Website</a>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <h1 class="hero-title">Welcome to My Website</h1>
+                <p class="hero-subtitle">Creating amazing web experiences with modern technology</p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">Learn More</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Welcome to my personal website! This is a space where I showcase my work, share my thoughts, and connect with others in the tech community.</p>
+                        <p>I'm passionate about web development, design, and creating digital experiences that make a difference. Whether you're here to learn about my projects or just to say hello, I'm glad you stopped by.</p>
+                    </div>
+                    <div class="about-skills">
+                        <h3>Skills & Technologies</h3>
+                        <div class="skills-grid">
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>Project One</h3>
+                            <div class="project-links">
+                                <a href="#" class="project-link">Demo</a>
+                                <a href="#" class="project-link">Code</a>
+                            </div>
+                        </div>
+                        <p>A description of your first project. Explain what it does, what technologies were used, and what problems it solves.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>Project Two</h3>
+                            <div class="project-links">
+                                <a href="#" class="project-link">Demo</a>
+                                <a href="#" class="project-link">Code</a>
+                            </div>
+                        </div>
+                        <p>A description of your second project. Highlight the key features and the impact it had or the skills you developed.</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>Project Three</h3>
+                            <div class="project-links">
+                                <a href="#" class="project-link">Demo</a>
+                                <a href="#" class="project-link">Code</a>
+                            </div>
+                        </div>
+                        <p>A description of your third project. Focus on what makes this project unique and what you learned from building it.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Flask</span>
+                            <span class="tag">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Get in Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <p>I'm always interested in new opportunities and collaborations. Feel free to reach out if you'd like to work together or just want to say hello!</p>
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <strong>Email:</strong>
+                                <a href="mailto:hello@example.com">hello@example.com</a>
+                            </div>
+                            <div class="contact-method">
+                                <strong>LinkedIn:</strong>
+                                <a href="#" target="_blank">linkedin.com/in/yourprofile</a>
+                            </div>
+                            <div class="contact-method">
+                                <strong>GitHub:</strong>
+                                <a href="#" target="_blank">github.com/yourusername</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Website. Built with ❤️ and modern web technologies.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
